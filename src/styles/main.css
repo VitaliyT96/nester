@@ -102,6 +102,7 @@ main > .feed {
 }
 
 .tweet-content {
+  display: inline-block;
 }
 
 .tweet-form {

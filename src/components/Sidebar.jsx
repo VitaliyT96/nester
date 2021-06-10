@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Sidebar extends Component {
-  render() {
-    return (
-      <aside className="menu">
+const Sidebar = (props)=>{
+	return(
+<aside className="menu">
         <div className="nes-container is-rounded">
           <h3>
             <a href=""># Home</a>
@@ -35,8 +34,6 @@ class Sidebar extends Component {
           </section>
         </div>
       </aside>
-    );
-  }
+	)
 }
-
 export default Sidebar;

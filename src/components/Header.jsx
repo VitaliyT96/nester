@@ -1,8 +1,9 @@
-import React, { Component } from "react";
+import React  from "react";
 
-class Header extends Component {
-  render() {
-    return (
+
+
+const Header = (props)=>{
+	return (
       <header>
         <div className="container">
           <div className="nav-brand">
@@ -12,7 +13,6 @@ class Header extends Component {
         </div>
       </header>
     );
-  }
 }
 
 export default Header;

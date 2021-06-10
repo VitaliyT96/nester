@@ -1,8 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 
-class TweetForm extends Component {
-  render() {
-    return (
+
+ 
+const TweetForm=(props)=>{
+	return (
       <div className="nes-container is-rounded tweet-form">
         <form method="dialog">
           <label for="textarea_field">What's happening?</label>
@@ -13,7 +14,5 @@ class TweetForm extends Component {
         </form>
       </div>
     );
-  }
 }
-
 export default TweetForm;

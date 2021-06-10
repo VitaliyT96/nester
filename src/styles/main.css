@@ -70,7 +70,7 @@ main > .feed {
 
 .tweet-date {
   margin-left: 0.5rem;
-  color: #d3d3d3;
+  color: rgb(39, 138, 172);
 }
 
 .tweet-name {
@@ -78,7 +78,7 @@ main > .feed {
 }
 
 .tweet-nickname {
-  color: #d3d3d3;
+  color: rgb(39, 138, 172);
 }
 
 .tweet-actions-container {
